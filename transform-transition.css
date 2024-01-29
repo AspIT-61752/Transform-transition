@@ -1,0 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    --groen1: hsl(100, 50%, 10%);
+    --groen2: hsl(100, 50%, 30%);
+    --groen3: hsl(100, 50%, 50%);
+    --groen4: hsl(100, 50%, 70%);
+    --groen5: hsl(100, 50%, 90%);
+
+    --blaa1: hsl(200, 50%, 10%);
+    --blaa2: hsl(200, 50%, 30%);
+    --blaa3: hsl(200, 50%, 50%);
+    --blaa4: hsl(200, 50%, 70%);
+    --blaa5: hsl(200, 50%, 90%);
+
+    --lyseroed1: hsl(300, 50%, 10%);
+    --lyseroed2: hsl(300, 50%, 30%);
+    --lyseroed3: hsl(300, 50%, 50%);
+    --lyseroed4: hsl(300, 50%, 70%);
+    --lyseroed5: hsl(300, 50%, 90%);
+
+    --orange: hsl(40, 50%, 50%);
+}
+
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header
+{
+    margin: 1rem;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2
+{
+    cursor: pointer;
+}
+
+main > div
+{
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+}
+
+main > div > div
+{  
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main > div > div + div
+{
+    background-color: antiquewhite;
+}
